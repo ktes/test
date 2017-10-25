@@ -40,7 +40,9 @@ public static class VectorHelper
 	static void SommerVecteurs(int[] v1, int[] v2) throws InvalidParameterException
 	{
 		if(v1.length != v2.length)
+		{
 			throw new InvalidParameterException();
+		}
 		for(i=0; i<v1.length; i++)
 			v2[i] += v1[i];
 	}
