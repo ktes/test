@@ -5,7 +5,7 @@ public static class VectorHelper
 	*/
 	static void TrierVecteur(int[] arr) 
 	{	 
-		int n = arr.length;	 
+		int n = arr.length;	//Comment 
 		int temp = 0;  
 		for(int i=0; i < n; i++)
 		{	
